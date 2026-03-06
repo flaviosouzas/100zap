@@ -7,7 +7,7 @@ import os
 # === CONFIGURAÇÕES ===
 TOKEN_DISCORD = os.getenv('DISCORD_TOKEN')
 API_URL = 'https://api.flaviosouza.cloud/chat/whatsappNumbers/botVivo'
-API_KEY = '925de8b019ca6a020e92eb1b77fc3571'
+API_KEY = os.getenv('API_KEY')
 ARQUIVO_HISTORICO = 'historico_numeros.txt'
 
 # Configuração do Bot com permissão para ler mensagens (necessário para o comando !painel)
