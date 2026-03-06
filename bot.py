@@ -5,7 +5,7 @@ import random
 import os
 
 # === CONFIGURAÇÕES ===
-TOKEN_DISCORD = 'MTQ0OTA5MjQzODA0NzMzMDQwOA.Gv_psJ.a_4Qw6K5Q5PY4nVjzG41g3pSvN_L2RTfiTcO2g' # Substitua pelo token do seu bot
+TOKEN_DISCORD = os.getenv('DISCORD_TOKEN')
 API_URL = 'https://api.flaviosouza.cloud/chat/whatsappNumbers/botVivo'
 API_KEY = '925de8b019ca6a020e92eb1b77fc3571'
 ARQUIVO_HISTORICO = 'historico_numeros.txt'
